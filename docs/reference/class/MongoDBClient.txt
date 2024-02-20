@@ -13,13 +13,13 @@ MongoDB\\Client Class
 Definition
 ----------
 
-.. phpclass:: MongoDB\\Client
+.. phpclass:: MongoDB\Client
 
    This class serves as an entry point for the |php-library|. It is the
    preferred class for connecting to a MongoDB server or cluster of servers and
    acts as a gateway for accessing individual databases and collections.
-   :phpclass:`MongoDB\\Client` is analogous to the driver's
-   :php:`MongoDB\\Driver\\Manager <mongodb-driver-manager>` class, which it
+   :phpclass:`MongoDB\Client` is analogous to the driver's
+   :php:`MongoDB\Driver\Manager <mongodb-driver-manager>` class, which it
    `composes <https://en.wikipedia.org/wiki/Object_composition>`_.
 
 Methods
