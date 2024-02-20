@@ -13,29 +13,29 @@ MongoDB\\Collection Class
 Definition
 ----------
 
-.. phpclass:: MongoDB\\Collection
+.. phpclass:: MongoDB\Collection
 
    Provides methods for common operations on collections and documents,
    including CRUD operations and index management.
 
    You can construct collections directly using the driver's
-   :php:`MongoDB\\Driver\\Manager <class.mongodb-driver-manager>` class or
-   select a collection from the library's :phpclass:`MongoDB\\Client` or
-   :phpclass:`MongoDB\\Database` classes. A collection may also be cloned from
-   an existing :phpclass:`MongoDB\\Collection` object via the
-   :phpmethod:`withOptions() <MongoDB\\Collection::withOptions()>` method.
+   :php:`MongoDB\Driver\Manager <class.mongodb-driver-manager>` class or
+   select a collection from the library's :phpclass:`MongoDB\Client` or
+   :phpclass:`MongoDB\Database` classes. A collection may also be cloned from
+   an existing :phpclass:`MongoDB\Collection` object via the
+   :phpmethod:`withOptions() <MongoDB\Collection::withOptions()>` method.
 
-   :phpclass:`MongoDB\\Collection` supports the :php:`readConcern
+   :phpclass:`MongoDB\Collection` supports the :php:`readConcern
    <mongodb-driver-readconcern>`, :php:`readPreference
    <mongodb-driver-readpreference>`, :php:`typeMap
    <manual/en/mongodb.persistence.deserialization.php#mongodb.persistence.typemaps>`,
    and :php:`writeConcern <mongodb-driver-writeconcern>` options. If you omit an
    option, the collection inherits the value from the :php:`Manager
    <mongodb-driver-manager>` constructor argument or the :phpclass:`Client
-   <MongoDB\\Client>` or :phpclass:`Database <MongoDB\\Database>` object used to
+   <MongoDB\\Client>` or :phpclass:`Database <MongoDB\Database>` object used to
    select the collection.
 
-   Operations within the :phpclass:`MongoDB\\Collection` class inherit the
+   Operations within the :phpclass:`MongoDB\Collection` class inherit the
    collection's options.
 
 Type Map Limitations
