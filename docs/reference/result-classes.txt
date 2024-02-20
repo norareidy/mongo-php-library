@@ -10,15 +10,15 @@ Result Classes
    :depth: 1
    :class: singlecol
 
-MongoDB\\ChangeStream
----------------------
+MongoDB\ChangeStream
+--------------------
 
 .. versionadded:: 1.3
 
 Definition
 ~~~~~~~~~~
 
-.. phpclass:: MongoDB\\ChangeStream
+.. phpclass:: MongoDB\ChangeStream
 
    This class extends PHP's :php:`Iterator <manual/en/class.iterator.php>`
    interface. An instance of this class is returned by

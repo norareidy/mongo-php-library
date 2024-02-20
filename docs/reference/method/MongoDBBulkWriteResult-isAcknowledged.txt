@@ -13,7 +13,7 @@ MongoDB\\BulkWriteResult::isAcknowledged()
 Definition
 ----------
 
-.. phpmethod:: MongoDB\\BulkWriteResult::isAcknowledged()
+.. phpmethod:: MongoDB\BulkWriteResult::isAcknowledged()
 
    Return whether the write was acknowledged.
 

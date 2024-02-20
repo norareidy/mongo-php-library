@@ -10,13 +10,13 @@ Write Result Classes
    :depth: 1
    :class: singlecol
 
-MongoDB\\BulkWriteResult
+MongoDB\BulkWriteResult
 ------------------------
 
 Definition
 ~~~~~~~~~~
 
-.. phpclass:: MongoDB\\BulkWriteResult
+.. phpclass:: MongoDB\BulkWriteResult
 
    This class contains information about an executed bulk write operation. It
    encapsulates a :php:`MongoDB\\Driver\\WriteResult

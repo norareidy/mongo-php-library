@@ -13,7 +13,7 @@ MongoDB\\ChangeStream::key()
 Definition
 ----------
 
-.. phpmethod:: MongoDB\\ChangeStream::key()
+.. phpmethod:: MongoDB\ChangeStream::key()
 
    Returns the index of the current event in the change stream.
 
@@ -28,7 +28,7 @@ Return Values
 -------------
 
 The index of the current event in the change stream, or ``null`` if there is no
-current event (i.e. :phpmethod:`MongoDB\\ChangeStream::valid()` returns
+current event (i.e. :phpmethod:`MongoDB\ChangeStream::valid()` returns
 ``false``).
 
 Examples

@@ -13,7 +13,7 @@ MongoDB\\BulkWriteResult::getUpsertedIds()
 Definition
 ----------
 
-.. phpmethod:: MongoDB\\BulkWriteResult::getUpsertedIds()
+.. phpmethod:: MongoDB\BulkWriteResult::getUpsertedIds()
 
    Return a map of IDs (i.e. ``_id`` field values) for documents that were
    upserted by all update and replace operations in the bulk write.

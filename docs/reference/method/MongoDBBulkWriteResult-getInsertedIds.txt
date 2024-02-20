@@ -13,7 +13,7 @@ MongoDB\\BulkWriteResult::getInsertedIds()
 Definition
 ----------
 
-.. phpmethod:: MongoDB\\BulkWriteResult::getInsertedIds()
+.. phpmethod:: MongoDB\BulkWriteResult::getInsertedIds()
 
    Return a map of IDs (i.e. ``_id`` field values) for documents that were
    inserted by all insert operations in the bulk write.

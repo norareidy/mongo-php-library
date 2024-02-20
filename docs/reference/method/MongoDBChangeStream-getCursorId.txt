@@ -13,7 +13,7 @@ MongoDB\\ChangeStream::getCursorId()
 Definition
 ----------
 
-.. phpmethod:: MongoDB\\ChangeStream::getCursorId()
+.. phpmethod:: MongoDB\ChangeStream::getCursorId()
 
    Returns the change stream cursor's ID.
 

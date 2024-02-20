@@ -13,7 +13,7 @@ MongoDB\\BulkWriteResult::getInsertedCount()
 Definition
 ----------
 
-.. phpmethod:: MongoDB\\BulkWriteResult::getInsertedCount()
+.. phpmethod:: MongoDB\BulkWriteResult::getInsertedCount()
 
    Return the total number of documents that were inserted by all insert
    operations in the bulk write.

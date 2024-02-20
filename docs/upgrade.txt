@@ -316,7 +316,7 @@ following methods on the write result objects:
   :phpmethod:`MongoDB\\Collection::insertOne()`
 - :phpmethod:`MongoDB\\InsertManyResult::getInsertedIds()` for
   :phpmethod:`MongoDB\\Collection::insertMany()`
-- :phpmethod:`MongoDB\\BulkWriteResult::getInsertedIds()` for
+- :phpmethod:`MongoDB\BulkWriteResult::getInsertedIds()` for
   :phpmethod:`MongoDB\\Collection::bulkWrite()`
 
 Bulk Write Operations

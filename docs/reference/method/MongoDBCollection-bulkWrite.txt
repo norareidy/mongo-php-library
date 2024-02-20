@@ -109,7 +109,7 @@ Parameters
 Return Values
 -------------
 
-A :phpclass:`MongoDB\\BulkWriteResult` object, which encapsulates a
+A :phpclass:`MongoDB\BulkWriteResult` object, which encapsulates a
 :php:`MongoDB\\Driver\\WriteResult <class.mongodb-driver-writeresult>` object.
 
 Errors/Exceptions

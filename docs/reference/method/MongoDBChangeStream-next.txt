@@ -13,7 +13,7 @@ MongoDB\\ChangeStream::next()
 Definition
 ----------
 
-.. phpmethod:: MongoDB\\ChangeStream::next()
+.. phpmethod:: MongoDB\ChangeStream::next()
 
    Advances the change stream and attempts to load the next event.
 
@@ -25,7 +25,7 @@ Definition
 
       Advancing the change stream does not guarantee that there will be a
       current event to access. You should still call
-      :phpmethod:`MongoDB\\ChangeStream::valid()` to check for a current event
+      :phpmethod:`MongoDB\ChangeStream::valid()` to check for a current event
       at each step of iteration.
 
 Errors/Exceptions

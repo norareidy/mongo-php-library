@@ -110,7 +110,7 @@ Parameters
 Return Values
 -------------
 
-A :phpclass:`MongoDB\\ChangeStream` object, which allows for iteration of
+A :phpclass:`MongoDB\ChangeStream` object, which allows for iteration of
 events in the change stream via the :php:`Iterator <class.iterator>` interface.
 
 Errors/Exceptions
